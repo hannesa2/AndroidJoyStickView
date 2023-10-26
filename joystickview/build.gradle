@@ -6,11 +6,11 @@ plugins {
 
 android {
     namespace 'com.jackandphantom.joystickview'
-    compileSdk 33
 
     defaultConfig {
         minSdk 21
-        targetSdk 33
+        compileSdk 34
+        targetSdk 34
 
         consumerProguardFiles "consumer-rules.pro"
     }

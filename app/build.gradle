@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.example.app'
-    compileSdk 33
 
     defaultConfig {
         applicationId "com.jackandphantom.joystickdemo"
         minSdk 24
-        targetSdk 33
+        compileSdk 34
+        targetSdk 34
         versionCode 1
         versionName "1.0"
         namespace 'com.jackandphantom.joystickdemo'
