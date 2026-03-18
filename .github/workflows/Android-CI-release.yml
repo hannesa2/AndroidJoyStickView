@@ -26,7 +26,7 @@ jobs:
           skip-unshallow: 'true'
           commit-ish: HEAD
       - name: Install Android SDK
-        uses: malinskiy/action-android/install-sdk@release/0.1.4
+        uses: malinskiy/action-android/install-sdk@release/0.1.7
       - name: Build project
         run: ./gradlew clean build
         env:
